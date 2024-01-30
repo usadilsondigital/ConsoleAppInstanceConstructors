@@ -20,5 +20,11 @@ namespace ConsoleAppInstanceConstructors
 
         public Coords() : this(0, 0) { }
 
+        //override ToString to show coordinates
+        public override string ToString()
+        {
+            return $"({X},{Y})";
+        }
+
     }
 }
