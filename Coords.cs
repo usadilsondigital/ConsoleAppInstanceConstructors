@@ -18,5 +18,7 @@ namespace ConsoleAppInstanceConstructors
         }
 
 
+        public Coords() : this(0, 0) { }
+
     }
 }
