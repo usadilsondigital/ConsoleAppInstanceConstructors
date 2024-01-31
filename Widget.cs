@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppInstanceConstructors
 {
-    
-    //primary constructor c# v12
-    public class NamedItem(string name)
+    public class Widget(string name,int width,int heigth,int depth) : NamedItem(name)
     {
-        public string Name => name;
-    }
 
+        public Widget() : this("N/A", 1, 1, 1) { } //unnamed unit cube
+
+
+
+    }
 }
