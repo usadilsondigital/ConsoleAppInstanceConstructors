@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppInstanceConstructors
 {
-    internal class Cylinder:Circle
+    internal class Cylinder : Circle
     {
+        public Cylinder(double radius,double height) : base(radius)
+        {
+            y = height;
+        }
     }
 }
