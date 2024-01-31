@@ -12,5 +12,10 @@ namespace ConsoleAppInstanceConstructors
         {
             y = height;
         }
+
+        public override double Area()
+        {
+            return (2*base.Area())+(2*pi*x*y);
+        }
     }
 }
