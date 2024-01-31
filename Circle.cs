@@ -12,9 +12,8 @@ namespace ConsoleAppInstanceConstructors
         {
         }
 
-        public override double Area()
-        {
-            throw new NotImplementedException();
-        }
+        public override double Area() => pi * x * x;
+
+
     }
 }
