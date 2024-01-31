@@ -9,5 +9,6 @@ namespace ConsoleAppInstanceConstructors
     abstract  class Shape
     {
         public const double pi = Math.PI;
+        protected double x, y;
     }
 }
