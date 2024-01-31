@@ -10,6 +10,9 @@
             var ring = new Circle(radius);
             Console.WriteLine($"Area of the Circle{ring.Area():F3}");
 
+            var tube = new Cylinder(radius,height);
+            Console.WriteLine($"Area of the cylinder = {tube.Area():F2}");
+
 
 
             var p1 = new Coords();
