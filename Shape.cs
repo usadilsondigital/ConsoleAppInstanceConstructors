@@ -17,6 +17,6 @@ namespace ConsoleAppInstanceConstructors
             this.y = y;
         }
 
-
+        public abstract double Area();
     }
 }
